@@ -14,7 +14,7 @@ const SidebarItem = (props) => {
 	let isopen = props.isopen;
 	let subItem = props.subitem;
 	//console.log(props);
-	console.log(subItem);
+	//console.log(subItem);
 	//console.log(subItem.subNav);
 
 	return (
@@ -38,7 +38,7 @@ const SidebarItem = (props) => {
 			</SidebarWrapper>
 			{subnav && isopen
 				? subItem.subNav.map((subitemx, index) => {
-						console.log(subnav);
+						//console.log(subnav);
 						return (
 							<DropdownLink to={subitemx.route} key={index}>
 								<span>{subitemx.title}</span>

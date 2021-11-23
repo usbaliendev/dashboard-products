@@ -2,13 +2,17 @@ import styled from "styled-components";
 
 export const TopnavWrapper = styled.div`
 	padding: 30px;
+	position: fixed;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: var(--topnav-height);
+	width: calc(100% - var(--sidebar-width));
+	background-color: var(--second-bg-dark);
 	box-shadow: var(--box-shadow);
 	border-bottom-left-radius: var(--border-radius);
 	border-bottom-right-radius: var(--border-radius);
+	z-index: 99;
 `;
 
 /* SEARCH BOX */
@@ -48,8 +52,8 @@ export const TopnavRight = styled.div`
 	box-shadow: var(--box-shadow);
 	border-radius: var(--border-radius);
 	width: 300px;
-	height: 50px;
-	padding: 10px;
+	height: 70px;
+	padding: 10px 10px 10px 10px;
 	.dropdown {
 		display: flex;
 		align-items: center;
@@ -68,12 +72,12 @@ export const TopNavUser = styled.div`
 `;
 
 export const ImgBox = styled.div`
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	overflow: hidden;
+	width: 40px;
+	height: 40px;
 	img {
-		width: 100%;
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
 	}
 `;
 
@@ -89,7 +93,7 @@ export const UserName = styled.div`
 	font-weight: 600;
 	font-size: 18px;
 	height: 70;
-	line-height: 20px;
+	line-height: 18px;
 `;
 
 /* USER DROPMENU */

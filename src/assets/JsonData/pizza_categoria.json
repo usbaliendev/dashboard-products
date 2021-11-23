@@ -1,0 +1,16 @@
+[
+    {
+        "idpizza_categoria": 15,
+        "pizza_categoria_img": "39ef619be6ae0da65debbb7737d8face1600723233.jpg",
+        "pizza_categoria_nome": "Pizzas Doces",
+        "pizza_categoria_precode": 0.0,
+        "pizza_categoria_precopor": 0.0
+    },
+    {
+        "idpizza_categoria": 14,
+        "pizza_categoria_img": "0cf18d3f6f0d3d32fdae9609ee98cbf41600718402.jpg",
+        "pizza_categoria_nome": "Pizzas Salgadas",
+        "pizza_categoria_precode": 0.0,
+        "pizza_categoria_precopor": 0.0
+    }
+]

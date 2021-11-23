@@ -6,9 +6,7 @@ import Dropdown from "../dropdown/Dropdown";
 import ThemeMenu from "../thememenu/ThemeMenu";
 import notifications from "../../assets/JsonData/notification.json";
 import user_image from "../../assets/images/funcionaria.png";
-import user_menu from "../../assets/JsonData/user_menus.json";
 import { userMenu } from "../../assets/JsonData/user-menus";
-import { FaBell } from "react-icons/fa";
 import { BiSearchAlt } from "react-icons/bi";
 
 import {
@@ -23,7 +21,6 @@ import {
 	IconBox,
 	NotiDropMenu,
 } from "./style";
-//import "./topnav.css";
 
 const curr_user = {
 	display_name: "Veneza Guara I",
@@ -38,8 +35,6 @@ const renderUserToggle = (user) => (
 		</ImgBox>
 		<UserName className="user-name">
 			<span>{user.display_name}</span>
-			<br />
-			{/* <span>{user.tipo_user}</span> */}
 		</UserName>
 	</TopNavUser>
 );

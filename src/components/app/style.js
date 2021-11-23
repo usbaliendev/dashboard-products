@@ -9,9 +9,15 @@ export const AppLayout = styled.div`
 export const Content = styled.div`
 	padding-left: var(--sidebar-width);
 	background-color: var(--second-bg);
-	min-height: 100vh;
+	min-height: 150vh;
+	display: flex;
+	flex-direction: column;
 `;
 
 export const MainContent = styled.div`
-	padding: 30px 30px 30px 30px;
+	position: absolute;
+	top: var(--topnav-height);
+	width: calc(100% - var(--sidebar-width));
+	height: 100%;
+	padding: 30px;
 `;
